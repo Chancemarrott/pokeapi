@@ -16,10 +16,10 @@ public class BasicClass {
 
     @Test
     public void statusCodeVerification() {
-        given().
-        when().
-            get("/ditto").
-        then().
-            statusCode(200);
+        given()
+        .when()
+            .get("/ditto")
+        .then()
+            .statusCode(200);
     }
 }
